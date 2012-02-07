@@ -1,0 +1,33 @@
+
+body {
+	margin: 0 auto;
+}
+
+header[role="banner"],
+nav[role="navigation"],
+div[role="main"],
+aside[role="complementary"],
+footer[role="contentinfo"] {
+		position:relative; 
+		padding: 0 20px;
+		margin: 0 auto;
+}
+
+header[role="banner"] {
+	h1 {
+		margin:0; 
+	}
+}
+
+nav[role="navigation"] {
+	ul {
+		margin:0;
+		padding-left:0;
+	}
+	.page_item {
+		display: inline-block;
+		a {
+			padding: .2em .5em;
+		}
+	}
+}
